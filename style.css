@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-html{
+body{
     background: rgb(0,0,0);
-background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(11,11,11,1) 20%, rgba(20,20,20,1) 50%, rgba(33,33,33,1) 80%, rgba(28,28,28,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(38,38,38,1) 19%, rgba(32,31,31,1) 37%, rgba(0,0,0,1) 54%, rgba(32,32,32,1) 72%, rgba(47,47,47,1) 89%);
 }
 h1{
     color: white;
@@ -36,8 +36,8 @@ a{
 }
 body nav ul li a{
     font-size: 22px;
-    border: white;
     display: inline-block;
+    list-style: none;
 }
 section{
     width: 85%;
@@ -48,7 +48,7 @@ section{
     justify-content: space-between;
     position: sticky;
     background-color: black;
-    padding: 10px;
+    padding: 1px;
     top: 0;
 }
 
@@ -59,7 +59,10 @@ section{
     height: 250px;
 }
 .infofinal{
-    color: darkred;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    top: 100;
 }
 .servicios{
     color: white;
