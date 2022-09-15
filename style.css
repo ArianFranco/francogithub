@@ -39,10 +39,6 @@ body nav ul li a{
     display: inline-block;
     list-style: none;
 }
-section{
-    width: 85%;
-    font-size: 15px;
-}
 .menu{
     display: flex;
     justify-content: space-between;
@@ -50,13 +46,6 @@ section{
     background-color: black;
     padding: 1px;
     top: 0;
-}
-
-.logoig{
-    height: 250px;
-}
-.logofb{
-    height: 250px;
 }
 .infofinal{
     color: white;
@@ -99,10 +88,6 @@ section{
 
 }
 @media screen and (max-width: 576px){
-    header{
-        flex-direction: column;
-        align-items: center;
-    }
     .galeria{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
