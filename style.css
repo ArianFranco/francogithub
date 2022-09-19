@@ -88,19 +88,6 @@ body nav ul li a{
 
 }
 @media screen and (max-width: 576px){
-    .galeria{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(9, 1fr);
-        align-items: center;
-        justify-content: center;
-    }
-    nav img{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
 
     p{
         flex-direction: column;
