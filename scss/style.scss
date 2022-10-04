@@ -19,10 +19,15 @@ h2{
     color: $txt-principal;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h3{
+    color: $txt-principal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 p{
     display: flex;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    margin: 2%;
 }
 nav ul li{
     list-style: none; 

@@ -22,6 +22,7 @@ p {
   display: flex;
   color: white;
   font-family: "Times New Roman", Times, serif;
+  margin: 2%;
 }
 
 nav ul li {
