@@ -9,10 +9,12 @@ body{
 h1{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 h2{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
 }
 h4{
     color: white;
@@ -63,6 +65,7 @@ body nav ul li a{
     padding: 1px;
     top: 0;
 }
+
 .infofinal{
     color: white;
     display: flex;
@@ -85,6 +88,18 @@ body nav ul li a{
     opacity: 100%;
     transform: scale(1.2);
 }
+.ejemplosdetailing{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1px;
+    padding: 1px;
+    justify-content: space-around;
+  }     
+.opcionesdetailing{
+    text-align: center;
+}
+
 .novedad{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -97,16 +112,65 @@ body nav ul li a{
     opacity: 100%;
     transform: scale(1.2);
 }
+.redes img{
+    width: 200px;
+}
 .redes{
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "txt txt txt txt"
+    "ig fb tw wp";
+    margin: 1%;
+    padding: 1%;
 }
-.detailing-titulo{
+.txtredes{
+    grid-area: txt;
 }
-@media screen and (max-width: 900px){
+.instagram{
+    grid-area: ig;
+}
+.facebook{
+    grid-area: fb;
+}
+.twitter{
+    grid-area: tw;
+}
+.whatsapp{
+    grid-area: wp;
+}
 
+@media screen and (max-width: 900px){
+    .ejemplosdetailing{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: center;
+        gap: 10px;
+        margin: 1%;
+        padding: 1%;
+      }  
+      .redes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-items: center;
+        gap: 10px;
+        margin: 1%;
+        padding: 1%;
+      }
 }
 @media screen and (max-width: 576px){
-
+    .ejemplosdetailing{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-items: center;
+        gap: 10px;
+        margin: 1%;
+        padding: 1%;
+      }  
     p{
         flex-direction: column;
     }
